@@ -32,7 +32,11 @@ class BottomNavigation extends StatelessWidget {
                   BottomNavigationBarItem(
                   icon: Icon(Icons.download), label: 'download'),
             ]);
+            
       },
+      
     );
+    
   }
 }
+
