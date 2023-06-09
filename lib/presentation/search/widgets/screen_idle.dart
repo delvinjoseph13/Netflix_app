@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:netflix_app/core/constands.dart';
+import 'package:netflix_app/presentation/search/widgets/screen_text.dart';
 
 const imageurl = 'https://static.displate.com/280x392/displate/2021-08-12/150200a26df6d3d4c32ca180b63ba52b_94e0c99492ed8edd2a90e5e84d2c0040.jpg';
 
@@ -12,10 +13,7 @@ class screenIdle extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          'Top Searches',
-          style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-        ),
+        screentext(title:'Top searches'),
         kheight,
         Expanded(
           child: ListView.separated(
@@ -28,6 +26,8 @@ class screenIdle extends StatelessWidget {
     );
   }
 }
+
+
 
 class screentopsearch extends StatelessWidget {
   const screentopsearch({super.key});
