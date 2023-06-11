@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:netflix_app/presentation/downloads/laugh%20page/screen_fast_laugh.dart';
 
 import 'package:netflix_app/presentation/downloads/main_page/widgets/screendownloads.dart';
 import 'package:netflix_app/presentation/downloads/new%20&%20hot/screen_news.dart';
@@ -10,7 +11,7 @@ import '../../widgets/bottom_nav.dart';
 class ScreenMainPage extends StatelessWidget {
   ScreenMainPage({super.key});
 
-  final _pages = [ScreenHome(), ScreenSearch(),ScreenNews(), ScreenDownload()];
+  final _pages = [ScreenHome(), ScreenSearch(),screenFastlaugh(),ScreenNews(), ScreenDownload()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
