@@ -43,7 +43,8 @@ class screentopsearch extends StatelessWidget {
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
               image: DecorationImage(
-                  fit: BoxFit.cover, image: NetworkImage(imageurl))),
+                  fit: BoxFit.cover,
+                   image: NetworkImage(imageurl))),
         ),
         Expanded(child: Text('Dark')),
         CircleAvatar(

@@ -68,7 +68,8 @@ class listoficons extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 10,horizontal: 10),
       child: Column(
         
-        children: [Icon(icon,size: 30,color: Colors.white,), Text(title,style: TextStyle(fontSize: 16),)],
+        children: [Icon(icon,size: 30,color: Colors.white,), 
+        Text(title,style: TextStyle(fontSize: 16),)],
       ),
     );
   }

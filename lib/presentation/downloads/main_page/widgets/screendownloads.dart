@@ -96,7 +96,8 @@ class section3 extends StatelessWidget {
       children: [
         SizedBox(
           width: double.infinity,
-          child: MaterialButton(
+          child:
+           MaterialButton(
             onPressed: () {},
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),

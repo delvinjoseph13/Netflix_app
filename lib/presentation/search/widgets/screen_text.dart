@@ -9,8 +9,7 @@ class screentext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      title,
+    return Text(title,
       style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
     );
   }
